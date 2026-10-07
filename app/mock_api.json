@@ -1,0 +1,1409 @@
+{
+ "GET /api/meta": {
+  "team": "CODE 101",
+  "event": "SAS CU Hackathon 2026",
+  "areas": [
+   {
+    "key": "big_data",
+    "label": "Big data"
+   },
+   {
+    "key": "maths_stats",
+    "label": "Maths and stats"
+   },
+   {
+    "key": "coding",
+    "label": "Coding"
+   },
+   {
+    "key": "ai_ml",
+    "label": "AI and ML"
+   },
+   {
+    "key": "dashboard_story",
+    "label": "Dashboards and storytelling"
+   }
+  ],
+  "roles": [
+   "Business Analyst",
+   "Data Analyst",
+   "Data Architect",
+   "Data Engineer",
+   "Data Scientist",
+   "Machine Learning Engineer"
+  ],
+  "cities": [
+   "Bengaluru",
+   "Mumbai",
+   "Gurgaon",
+   "Delhi NCR",
+   "Pune",
+   "Chennai",
+   "Hyderabad",
+   "Noida"
+  ],
+  "dataset_stats": {
+   "analytics_jobs_raw": 15841,
+   "analytics_jobs_core": 5042,
+   "ds_jobs_rows": 1602,
+   "ds_jobs_companies": 642,
+   "jds_rows": 139,
+   "sds_rows": 161
+  }
+ },
+ "GET /api/insights": {
+  "role_landscape": [
+   {
+    "role": "Business Analyst",
+    "listings": 32843,
+    "median_salary_lpa": 8.3,
+    "mean_min_experience": 1.7,
+    "attractiveness": 100.0
+   },
+   {
+    "role": "Data Analyst",
+    "listings": 18095,
+    "median_salary_lpa": 5.0,
+    "mean_min_experience": 0.82,
+    "attractiveness": 64.92
+   },
+   {
+    "role": "Senior Business Analyst",
+    "listings": 14115,
+    "median_salary_lpa": 13.0,
+    "mean_min_experience": 4.02,
+    "attractiveness": 53.49
+   },
+   {
+    "role": "Data Scientist",
+    "listings": 9051,
+    "median_salary_lpa": 12.8,
+    "mean_min_experience": 1.54,
+    "attractiveness": 61.37
+   },
+   {
+    "role": "Data Engineer",
+    "listings": 8044,
+    "median_salary_lpa": 10.85,
+    "mean_min_experience": 1.51,
+    "attractiveness": 53.1
+   },
+   {
+    "role": "Senior Data Analyst",
+    "listings": 3825,
+    "median_salary_lpa": 8.6,
+    "mean_min_experience": 2.86,
+    "attractiveness": 29.94
+   },
+   {
+    "role": "Senior Data Engineer",
+    "listings": 3411,
+    "median_salary_lpa": 17.6,
+    "mean_min_experience": 4.57,
+    "attractiveness": 43.29
+   },
+   {
+    "role": "Senior Data Scientist",
+    "listings": 2129,
+    "median_salary_lpa": 21.2,
+    "mean_min_experience": 3.96,
+    "attractiveness": 52.35
+   },
+   {
+    "role": "Machine Learning Engineer",
+    "listings": 964,
+    "median_salary_lpa": 9.1,
+    "mean_min_experience": 1.44,
+    "attractiveness": 31.37
+   },
+   {
+    "role": "Data Architect",
+    "listings": 528,
+    "median_salary_lpa": 24.25,
+    "mean_min_experience": 9.98,
+    "attractiveness": 33.87
+   }
+  ],
+  "role_tests": {
+   "anova_F": 154.5,
+   "anova_p": 8.671247064532961e-210,
+   "kruskal_H": 833.4,
+   "spearman_experience_salary": 0.633
+  },
+  "role_area_profile": {
+   "Business Analyst": {
+    "big_data": 0.019,
+    "maths_stats": 0.049,
+    "coding": 0.144,
+    "ai_ml": 0.048,
+    "dashboard_story": 0.15
+   },
+   "Data Analyst": {
+    "big_data": 0.09,
+    "maths_stats": 0.197,
+    "coding": 0.479,
+    "ai_ml": 0.153,
+    "dashboard_story": 0.31
+   },
+   "Data Architect": {
+    "big_data": 0.747,
+    "maths_stats": 0.046,
+    "coding": 0.563,
+    "ai_ml": 0.069,
+    "dashboard_story": 0.08
+   },
+   "Data Engineer": {
+    "big_data": 0.835,
+    "maths_stats": 0.035,
+    "coding": 0.65,
+    "ai_ml": 0.128,
+    "dashboard_story": 0.136
+   },
+   "Data Scientist": {
+    "big_data": 0.146,
+    "maths_stats": 0.197,
+    "coding": 0.503,
+    "ai_ml": 0.508,
+    "dashboard_story": 0.097
+   },
+   "Machine Learning Engineer": {
+    "big_data": 0.139,
+    "maths_stats": 0.065,
+    "coding": 0.694,
+    "ai_ml": 0.917,
+    "dashboard_story": 0.037
+   }
+  },
+  "top_skills": {
+   "Business Analyst": [
+    {
+     "skill": "business analysis",
+     "share_pct": 65.37,
+     "lift": 4.99
+    },
+    {
+     "skill": "business analyst",
+     "share_pct": 12.65,
+     "lift": 4.91
+    },
+    {
+     "skill": "uat",
+     "share_pct": 4.66,
+     "lift": 5.11
+    },
+    {
+     "skill": "project management",
+     "share_pct": 7.21,
+     "lift": 2.07
+    },
+    {
+     "skill": "user stories",
+     "share_pct": 4.22,
+     "lift": 5.19
+    },
+    {
+     "skill": "business analytics",
+     "share_pct": 5.66,
+     "lift": 2.85
+    },
+    {
+     "skill": "use cases",
+     "share_pct": 4.11,
+     "lift": 4.93
+    },
+    {
+     "skill": "requirement gathering",
+     "share_pct": 4.11,
+     "lift": 4.31
+    }
+   ],
+   "Data Analyst": [
+    {
+     "skill": "data analysis",
+     "share_pct": 32.21,
+     "lift": 1.62
+    },
+    {
+     "skill": "sas",
+     "share_pct": 20.9,
+     "lift": 1.66
+    },
+    {
+     "skill": "sql",
+     "share_pct": 23.55,
+     "lift": 1.19
+    },
+    {
+     "skill": "analytics",
+     "share_pct": 18.03,
+     "lift": 1.49
+    },
+    {
+     "skill": "excel",
+     "share_pct": 12.95,
+     "lift": 1.72
+    },
+    {
+     "skill": "r",
+     "share_pct": 11.71,
+     "lift": 1.02
+    },
+    {
+     "skill": "mis",
+     "share_pct": 5.13,
+     "lift": 1.91
+    },
+    {
+     "skill": "data management",
+     "share_pct": 4.07,
+     "lift": 1.85
+    }
+   ],
+   "Data Architect": [
+    {
+     "skill": "hadoop",
+     "share_pct": 36.78,
+     "lift": 6.16
+    },
+    {
+     "skill": "spark",
+     "share_pct": 35.63,
+     "lift": 6.44
+    },
+    {
+     "skill": "data architecture",
+     "share_pct": 13.79,
+     "lift": 28.98
+    },
+    {
+     "skill": "data modeling",
+     "share_pct": 20.69,
+     "lift": 8.28
+    },
+    {
+     "skill": "big data",
+     "share_pct": 24.14,
+     "lift": 3.83
+    },
+    {
+     "skill": "data architect",
+     "share_pct": 9.2,
+     "lift": 57.95
+    },
+    {
+     "skill": "nosql",
+     "share_pct": 17.24,
+     "lift": 7.01
+    },
+    {
+     "skill": "sql",
+     "share_pct": 33.33,
+     "lift": 1.68
+    }
+   ],
+   "Data Engineer": [
+    {
+     "skill": "big data",
+     "share_pct": 33.76,
+     "lift": 5.35
+    },
+    {
+     "skill": "hadoop",
+     "share_pct": 31.85,
+     "lift": 5.34
+    },
+    {
+     "skill": "spark",
+     "share_pct": 29.64,
+     "lift": 5.36
+    },
+    {
+     "skill": "hive",
+     "share_pct": 20.76,
+     "lift": 5.51
+    },
+    {
+     "skill": "java",
+     "share_pct": 22.5,
+     "lift": 3.39
+    },
+    {
+     "skill": "sql",
+     "share_pct": 32.81,
+     "lift": 1.65
+    },
+    {
+     "skill": "data warehousing",
+     "share_pct": 13.31,
+     "lift": 4.45
+    },
+    {
+     "skill": "etl",
+     "share_pct": 12.2,
+     "lift": 4.66
+    }
+   ],
+   "Data Scientist": [
+    {
+     "skill": "machine learning",
+     "share_pct": 30.51,
+     "lift": 2.64
+    },
+    {
+     "skill": "python",
+     "share_pct": 27.57,
+     "lift": 2.07
+    },
+    {
+     "skill": "data science",
+     "share_pct": 18.63,
+     "lift": 3.33
+    },
+    {
+     "skill": "r",
+     "share_pct": 21.58,
+     "lift": 1.88
+    },
+    {
+     "skill": "predictive modelling",
+     "share_pct": 10.84,
+     "lift": 2.14
+    },
+    {
+     "skill": "deep learning",
+     "share_pct": 7.7,
+     "lift": 2.88
+    },
+    {
+     "skill": "natural language processing",
+     "share_pct": 7.51,
+     "lift": 2.31
+    },
+    {
+     "skill": "algorithms",
+     "share_pct": 5.89,
+     "lift": 2.75
+    }
+   ],
+   "Machine Learning Engineer": [
+    {
+     "skill": "natural language processing",
+     "share_pct": 58.33,
+     "lift": 17.93
+    },
+    {
+     "skill": "machine learning",
+     "share_pct": 65.74,
+     "lift": 5.69
+    },
+    {
+     "skill": "deep learning",
+     "share_pct": 36.11,
+     "lift": 13.49
+    },
+    {
+     "skill": "python",
+     "share_pct": 52.78,
+     "lift": 3.95
+    },
+    {
+     "skill": "computer vision",
+     "share_pct": 14.81,
+     "lift": 24.1
+    },
+    {
+     "skill": "algorithms",
+     "share_pct": 16.67,
+     "lift": 7.78
+    },
+    {
+     "skill": "image processing",
+     "share_pct": 8.33,
+     "lift": 28.01
+    },
+    {
+     "skill": "c++",
+     "share_pct": 12.04,
+     "lift": 6.13
+    }
+   ]
+  },
+  "skill_rules": [
+   {
+    "if": "etl",
+    "then": "data warehousing",
+    "support_pct": 1.13,
+    "confidence_pct": 43.18,
+    "lift": 14.42
+   },
+   {
+    "if": "data warehousing",
+    "then": "etl",
+    "support_pct": 1.13,
+    "confidence_pct": 37.75,
+    "lift": 14.42
+   },
+   {
+    "if": "natural language processing",
+    "then": "deep learning",
+    "support_pct": 1.25,
+    "confidence_pct": 38.41,
+    "lift": 14.35
+   },
+   {
+    "if": "deep learning",
+    "then": "natural language processing",
+    "support_pct": 1.25,
+    "confidence_pct": 46.67,
+    "lift": 14.35
+   },
+   {
+    "if": "scala",
+    "then": "spark",
+    "support_pct": 1.8,
+    "confidence_pct": 72.8,
+    "lift": 13.16
+   },
+   {
+    "if": "spark",
+    "then": "scala",
+    "support_pct": 1.8,
+    "confidence_pct": 32.62,
+    "lift": 13.16
+   },
+   {
+    "if": "nosql",
+    "then": "hive",
+    "support_pct": 1.17,
+    "confidence_pct": 47.58,
+    "lift": 12.63
+   },
+   {
+    "if": "hive",
+    "then": "nosql",
+    "support_pct": 1.17,
+    "confidence_pct": 31.05,
+    "lift": 12.63
+   }
+  ],
+  "area_vs_salary": {
+   "big_data": {
+    "cramers_v": 0.12,
+    "p": 2.3251087800751957e-14,
+    "pct_high_band_with": 35.3,
+    "pct_high_band_without": 28.3
+   },
+   "maths_stats": {
+    "cramers_v": 0.11,
+    "p": 6.462486130873272e-12,
+    "pct_high_band_with": 35.7,
+    "pct_high_band_without": 28.6
+   },
+   "coding": {
+    "cramers_v": 0.178,
+    "p": 1.1418118458810957e-32,
+    "pct_high_band_with": 31.6,
+    "pct_high_band_without": 28.0
+   },
+   "ai_ml": {
+    "cramers_v": 0.164,
+    "p": 1.3892193852573516e-27,
+    "pct_high_band_with": 38.3,
+    "pct_high_band_without": 27.2
+   },
+   "dashboard_story": {
+    "cramers_v": 0.13,
+    "p": 5.039611527735208e-17,
+    "pct_high_band_with": 22.5,
+    "pct_high_band_without": 31.5
+   }
+  },
+  "skills_that_pay": {
+   "ttests": [
+    {
+     "feature": "big_data_skills",
+     "mean_high": 3.9397,
+     "mean_low": 3.75,
+     "t": 1.3031,
+     "p": 0.1951,
+     "mw_p": 0.2172,
+     "cohens_d": 0.223
+    },
+    {
+     "feature": "maths_stats_skills",
+     "mean_high": 4.7123,
+     "mean_low": 3.8303,
+     "t": 6.9597,
+     "p": 0.0,
+     "mw_p": 0.0,
+     "cohens_d": 1.2016
+    },
+    {
+     "feature": "coding_skills",
+     "mean_high": 4.6438,
+     "mean_low": 3.853,
+     "t": 5.6977,
+     "p": 0.0,
+     "mw_p": 0.0,
+     "cohens_d": 0.9761
+    },
+    {
+     "feature": "ai_and_ml_skills",
+     "mean_high": 4.8219,
+     "mean_low": 4.2833,
+     "t": 4.9885,
+     "p": 0.0,
+     "mw_p": 0.0001,
+     "cohens_d": 0.8629
+    },
+    {
+     "feature": "dashboard_and_storytelling_skills",
+     "mean_high": 4.8452,
+     "mean_low": 3.8136,
+     "t": 7.5504,
+     "p": 0.0,
+     "mw_p": 0.0,
+     "cohens_d": 1.3022
+    }
+   ],
+   "logit": [
+    {
+     "feature": "intercept",
+     "coef_std": -0.2996248791190807,
+     "odds_ratio_per_sd": 0.7410961691941471,
+     "p": 0.2861594530068945
+    },
+    {
+     "feature": "big_data_skills",
+     "coef_std": 0.8404070997726184,
+     "odds_ratio_per_sd": 2.3173101612226996,
+     "p": 0.007193169594457149
+    },
+    {
+     "feature": "maths_stats_skills",
+     "coef_std": 1.5314191176492344,
+     "odds_ratio_per_sd": 4.624735210997509,
+     "p": 0.00024717504778748456
+    },
+    {
+     "feature": "coding_skills",
+     "coef_std": 0.5419774186794644,
+     "odds_ratio_per_sd": 1.7194034833725391,
+     "p": 0.0762381518765356
+    },
+    {
+     "feature": "ai_and_ml_skills",
+     "coef_std": 0.8402316536297822,
+     "odds_ratio_per_sd": 2.316903633756039,
+     "p": 0.007245086793789657
+    },
+    {
+     "feature": "dashboard_and_storytelling_skills",
+     "coef_std": 1.2594334206080426,
+     "odds_ratio_per_sd": 3.5234246219474925,
+     "p": 0.0002508395985760803
+    }
+   ],
+   "models": [
+    {
+     "model": "Logistic regression",
+     "cv_auc": 0.892,
+     "cv_accuracy": 0.82
+    },
+    {
+     "model": "Decision tree (depth 3)",
+     "cv_auc": 0.789,
+     "cv_accuracy": 0.77
+    },
+    {
+     "model": "Random forest",
+     "cv_auc": 0.869,
+     "cv_accuracy": 0.835
+    }
+   ],
+   "rf_importance": {
+    "big_data_skills": 0.1001,
+    "maths_stats_skills": 0.2456,
+    "coding_skills": 0.146,
+    "ai_and_ml_skills": 0.1571,
+    "dashboard_and_storytelling_skills": 0.3512
+   },
+   "mcfadden_r2": 0.499
+  },
+  "traits_that_succeed": {
+   "ttests": [
+    {
+     "feature": "neuroticism",
+     "mean_high": 36.1294,
+     "mean_low": 36.2632,
+     "t": -0.0735,
+     "p": 0.9415,
+     "mw_p": 0.4539,
+     "cohens_d": -0.0117
+    },
+    {
+     "feature": "extraversion",
+     "mean_high": 48.8588,
+     "mean_low": 36.8816,
+     "t": 6.9643,
+     "p": 0.0,
+     "mw_p": 0.0,
+     "cohens_d": 1.1152
+    },
+    {
+     "feature": "openness_to_experience",
+     "mean_high": 48.4941,
+     "mean_low": 33.3158,
+     "t": 11.0676,
+     "p": 0.0,
+     "mw_p": 0.0,
+     "cohens_d": 1.7743
+    },
+    {
+     "feature": "agreeableness",
+     "mean_high": 47.7176,
+     "mean_low": 41.1184,
+     "t": 3.6887,
+     "p": 0.0004,
+     "mw_p": 0.0009,
+     "cohens_d": 0.5952
+    },
+    {
+     "feature": "conscientiousness",
+     "mean_high": 53.6824,
+     "mean_low": 35.7368,
+     "t": 11.2998,
+     "p": 0.0,
+     "mw_p": 0.0,
+     "cohens_d": 1.8145
+    }
+   ],
+   "logit": [
+    {
+     "feature": "intercept",
+     "coef_std": -1.1331578552816626,
+     "odds_ratio_per_sd": 0.3220147731051321,
+     "p": 0.027709597161620803
+    },
+    {
+     "feature": "neuroticism",
+     "coef_std": 1.366234341424396,
+     "odds_ratio_per_sd": 3.92055937538536,
+     "p": 0.0013420645657908903
+    },
+    {
+     "feature": "extraversion",
+     "coef_std": 1.3652094332857958,
+     "odds_ratio_per_sd": 3.9165432206200745,
+     "p": 0.005372862362223119
+    },
+    {
+     "feature": "openness_to_experience",
+     "coef_std": 3.033545086351586,
+     "odds_ratio_per_sd": 20.770736277638125,
+     "p": 3.4802717421289486e-06
+    },
+    {
+     "feature": "agreeableness",
+     "coef_std": 0.8986626399773747,
+     "odds_ratio_per_sd": 2.456315934843593,
+     "p": 0.05579048575575163
+    },
+    {
+     "feature": "conscientiousness",
+     "coef_std": 3.278428690566025,
+     "odds_ratio_per_sd": 26.534046728307022,
+     "p": 2.296103438448327e-05
+    }
+   ],
+   "models": [
+    {
+     "model": "Logistic regression",
+     "cv_auc": 0.957,
+     "cv_accuracy": 0.907
+    },
+    {
+     "model": "Decision tree (depth 3)",
+     "cv_auc": 0.938,
+     "cv_accuracy": 0.925
+    },
+    {
+     "model": "Random forest",
+     "cv_auc": 0.993,
+     "cv_accuracy": 0.95
+    }
+   ],
+   "rf_importance": {
+    "neuroticism": 0.0276,
+    "extraversion": 0.1331,
+    "openness_to_experience": 0.3334,
+    "agreeableness": 0.1351,
+    "conscientiousness": 0.3708
+   },
+   "mcfadden_r2": 0.757
+  },
+  "personas": {
+   "learner": [
+    {
+     "id": 0,
+     "name": "Foundation Builder",
+     "description": "Even, mid-level skills across the board; AI and ML is the biggest gap.",
+     "profile": {
+      "big_data": 3.81,
+      "maths_stats": 3.64,
+      "coding": 3.97,
+      "ai_ml": 3.23,
+      "dashboard_story": 3.69
+     },
+     "size": 23,
+     "high_hike_rate": 0.043
+    },
+    {
+     "id": 1,
+     "name": "All-Rounder",
+     "description": "Strong in maths, coding, AI and storytelling; big data is the only soft spot.",
+     "profile": {
+      "big_data": 3.83,
+      "maths_stats": 4.72,
+      "coding": 4.82,
+      "ai_ml": 4.83,
+      "dashboard_story": 4.88
+     },
+     "size": 78,
+     "high_hike_rate": 0.833
+    },
+    {
+     "id": 2,
+     "name": "AI Explorer",
+     "description": "Strong AI and ML interest, lighter on coding and stats foundations.",
+     "profile": {
+      "big_data": 3.91,
+      "maths_stats": 3.81,
+      "coding": 3.33,
+      "ai_ml": 4.84,
+      "dashboard_story": 3.69
+     },
+     "size": 38,
+     "high_hike_rate": 0.184
+    }
+   ],
+   "workstyle": [
+    {
+     "id": 0,
+     "name": "Steady Supporter",
+     "description": "Warm and cooperative, prefers a clear structure set by others.",
+     "profile": {
+      "neuroticism": 35.04,
+      "extraversion": 38.17,
+      "openness_to_experience": 27.91,
+      "agreeableness": 56.74,
+      "conscientiousness": 33.26
+     },
+     "size": 23,
+     "success_rate": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Driver",
+     "description": "Organised, open and outgoing; the natural accountability lead.",
+     "profile": {
+      "neuroticism": 33.7,
+      "extraversion": 49.67,
+      "openness_to_experience": 47.94,
+      "agreeableness": 48.32,
+      "conscientiousness": 53.72
+     },
+     "size": 88,
+     "success_rate": 0.886
+    },
+    {
+     "id": 2,
+     "name": "Quiet Reserve",
+     "description": "Reserved and low-key; does best with a fixed weekly rhythm.",
+     "profile": {
+      "neuroticism": 30.75,
+      "extraversion": 32.0,
+      "openness_to_experience": 29.96,
+      "agreeableness": 30.18,
+      "conscientiousness": 34.86
+     },
+     "size": 28,
+     "success_rate": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Restless Explorer",
+     "description": "Curious but restless; benefits from a steady partner.",
+     "profile": {
+      "neuroticism": 54.27,
+      "extraversion": 36.86,
+      "openness_to_experience": 43.36,
+      "agreeableness": 35.41,
+      "conscientiousness": 36.86
+     },
+     "size": 22,
+     "success_rate": 0.318
+    }
+   ]
+  }
+ },
+ "GET /api/evaluation": {
+  "n_students": 150,
+  "n_simulations": 30,
+  "summary": {
+   "Our matcher": {
+    "coverage": [
+     0.8307,
+     0.0093
+    ],
+    "overlap": [
+     0.4665,
+     0.0251
+    ],
+    "hours": [
+     0.7788,
+     0.0157
+    ],
+    "traits": [
+     0.7674,
+     0.0384
+    ],
+    "anchor": [
+     0.8914,
+     0.0433
+    ],
+    "score": [
+     0.7508,
+     0.0101
+    ],
+    "jds_prob": [
+     0.2992,
+     0.0354
+    ]
+   },
+   "Random grouping": {
+    "coverage": [
+     0.813,
+     0.01
+    ],
+    "overlap": [
+     0.5539,
+     0.0226
+    ],
+    "hours": [
+     0.5294,
+     0.0422
+    ],
+    "traits": [
+     0.7752,
+     0.0333
+    ],
+    "anchor": [
+     0.9073,
+     0.0441
+    ],
+    "score": [
+     0.6895,
+     0.0115
+    ],
+    "jds_prob": [
+     0.2529,
+     0.0352
+    ]
+   },
+   "Similarity-only": {
+    "coverage": [
+     0.7546,
+     0.0114
+    ],
+    "overlap": [
+     0.7743,
+     0.0202
+    ],
+    "hours": [
+     0.5304,
+     0.0421
+    ],
+    "traits": [
+     0.7692,
+     0.0311
+    ],
+    "anchor": [
+     0.8987,
+     0.0395
+    ],
+    "score": [
+     0.6181,
+     0.0104
+    ],
+    "jds_prob": [
+     0.1639,
+     0.025
+    ]
+   }
+  },
+  "wins_pct": {
+   "Random grouping": 100.0,
+   "Similarity-only": 100.0
+  },
+  "wilcoxon_p": {
+   "Random grouping|score": 1.862645149230957e-09,
+   "Random grouping|coverage": 1.862645149230957e-09,
+   "Random grouping|jds_prob": 1.862645149230957e-09,
+   "Random grouping|overlap": 1.862645149230957e-09,
+   "Random grouping|hours": 1.862645149230957e-09,
+   "Random grouping|anchor": 0.09140331034279695,
+   "Similarity-only|score": 1.862645149230957e-09,
+   "Similarity-only|coverage": 1.862645149230957e-09,
+   "Similarity-only|jds_prob": 1.862645149230957e-09,
+   "Similarity-only|overlap": 1.862645149230957e-09,
+   "Similarity-only|hours": 1.732216233144114e-06,
+   "Similarity-only|anchor": 0.33668679985169514
+  },
+  "sensitivity": [
+   {
+    "setting": "Base",
+    "coverage": 0.8238,
+    "jds_prob": 0.2899,
+    "traits": 0.7636,
+    "anchor": 0.8824,
+    "hours": 0.8075,
+    "overlap": 0.4607
+   },
+   {
+    "setting": "Coverage heavy",
+    "coverage": 0.829,
+    "jds_prob": 0.3111,
+    "traits": 0.7698,
+    "anchor": 0.8824,
+    "hours": 0.7201,
+    "overlap": 0.4455
+   },
+   {
+    "setting": "Equal weights",
+    "coverage": 0.823,
+    "jds_prob": 0.2928,
+    "traits": 0.7574,
+    "anchor": 0.8824,
+    "hours": 0.8093,
+    "overlap": 0.454
+   },
+   {
+    "setting": "No traits",
+    "coverage": 0.8269,
+    "jds_prob": 0.2966,
+    "traits": 0.7608,
+    "anchor": 0.902,
+    "hours": 0.8431,
+    "overlap": 0.4661
+   }
+  ],
+  "solo_hike_prob": 0.046,
+  "profile_train_test_corr": 0.99
+ },
+ "GET /api/transparency": {
+  "cleaning_log": [
+   {
+    "step": "Raw postings",
+    "rows": 15841
+   },
+   {
+    "step": "After removing exact duplicates",
+    "rows": 14840
+   },
+   {
+    "step": "After dropping postings with no skills",
+    "rows": 14839
+   },
+   {
+    "step": "After removing non-analytics noise (data entry, BPO, telecalling)",
+    "rows": 13973
+   },
+   {
+    "step": "Postings mapped to one of 6 core data roles",
+    "rows": 5042
+   }
+  ],
+  "data_issues": [
+   {
+    "issue": "Truncated skill lists",
+    "evidence": "87.2% of key_skills end with '...'",
+    "fix": "Kept visible skills, flagged truncation, profiles use share of postings not counts"
+   },
+   {
+    "issue": "Messy job titles",
+    "evidence": "10,097 unique designations",
+    "fix": "Rule-based mapping to 6 core data roles, skills used as fallback"
+   },
+   {
+    "issue": "Mostly empty job_type",
+    "evidence": "75.8% null, 5 spellings",
+    "fix": "Standardised case, column not used for modelling"
+   },
+   {
+    "issue": "Duplicate postings",
+    "evidence": "1,001 exact duplicates",
+    "fix": "Removed"
+   },
+   {
+    "issue": "Non-analytics noise",
+    "evidence": "866 data entry, BPO, telecalling postings",
+    "fix": "Keyword filter removed them"
+   },
+   {
+    "issue": "Salary and experience as text",
+    "evidence": "'7.8L', '10to15', '3-8 yrs'",
+    "fix": "Parsed to numeric min, max and midpoint"
+   },
+   {
+    "issue": "Extreme posting counts",
+    "evidence": "num_of_jobs up to 4,200; 164 IQR outliers",
+    "fix": "Kept (real large employers), medians used instead of means"
+   },
+   {
+    "issue": "Ceiling effect in JDS scores",
+    "evidence": "58% score 5 on storytelling",
+    "fix": "Reported, non-parametric tests run alongside t-tests"
+   }
+  ],
+  "scoring": {
+   "weights": {
+    "coverage": 0.45,
+    "overlap": 0.2,
+    "hours": 0.15,
+    "traits": 0.2
+   },
+   "payoff_weights": {
+    "big_data": 0.774,
+    "maths_stats": 1.0,
+    "coding": 0.677,
+    "ai_ml": 0.774,
+    "dashboard_story": 0.911
+   },
+   "role_weights": {
+    "Business Analyst": {
+     "big_data": 0.05,
+     "maths_stats": 0.153,
+     "coding": 0.28,
+     "ai_ml": 0.118,
+     "dashboard_story": 0.399
+    },
+    "Data Analyst": {
+     "big_data": 0.069,
+     "maths_stats": 0.199,
+     "coding": 0.326,
+     "ai_ml": 0.119,
+     "dashboard_story": 0.287
+    },
+    "Data Architect": {
+     "big_data": 0.501,
+     "maths_stats": 0.044,
+     "coding": 0.318,
+     "ai_ml": 0.057,
+     "dashboard_story": 0.08
+    },
+    "Data Engineer": {
+     "big_data": 0.481,
+     "maths_stats": 0.027,
+     "coding": 0.318,
+     "ai_ml": 0.071,
+     "dashboard_story": 0.104
+    },
+    "Data Scientist": {
+     "big_data": 0.1,
+     "maths_stats": 0.165,
+     "coding": 0.307,
+     "ai_ml": 0.352,
+     "dashboard_story": 0.075
+    },
+    "Machine Learning Engineer": {
+     "big_data": 0.075,
+     "maths_stats": 0.057,
+     "coding": 0.334,
+     "ai_ml": 0.513,
+     "dashboard_story": 0.022
+    }
+   },
+   "formula": "score = 0.45 x coverage + 0.20 x (1 - overlap) + 0.15 x hours_fit + 0.20 x trait_score"
+  },
+  "models": [
+   {
+    "name": "Skill payoff model",
+    "data": "JDS Skill Traits (139)",
+    "type": "Logistic regression",
+    "cv_auc": 0.892
+   },
+   {
+    "name": "Success trait model",
+    "data": "SDS Personality Traits (161)",
+    "type": "Logistic regression",
+    "cv_auc": 0.957
+   }
+  ],
+  "assumptions": [
+   "Student profiles are simulated from JDS and SDS distributions, shifted down to an earlier career stage",
+   "Senior data scientist traits are used as indicators of success, not as a profile of students",
+   "A group covers an area when its strongest member covers it (peer teaching)"
+  ],
+  "limitations": [
+   "87% of skill lists are truncated, so rare skills are under-counted",
+   "Only 5 broad skill areas link jobs data to outcome data",
+   "Simulated students, not a live user pilot",
+   "Small JDS and SDS samples (139 and 161 rows)"
+  ]
+ },
+ "POST /api/match": {
+  "request": {
+   "name": "You",
+   "target_role": "Data Scientist",
+   "hours_per_week": 6,
+   "city": "Bengaluru",
+   "skills": {
+    "big_data": 4.41,
+    "maths_stats": 2.07,
+    "coding": 1.86,
+    "ai_ml": 1.33,
+    "dashboard_story": 1.72
+   },
+   "tipi": [
+    5,
+    2,
+    6,
+    3,
+    6,
+    3,
+    6,
+    2,
+    5,
+    2
+   ]
+  },
+  "response": {
+   "user": {
+    "learner_persona": "Foundation Builder",
+    "workstyle_persona": "Driver",
+    "traits_sds_scale": {
+     "neuroticism": 33,
+     "extraversion": 45,
+     "openness_to_experience": 52,
+     "agreeableness": 55,
+     "conscientiousness": 58
+    },
+    "trait_success_prob": 0.88,
+    "solo_hike_prob": 0.0,
+    "gap": [
+     {
+      "area": "big_data",
+      "label": "Big data",
+      "your_level": 4.41,
+      "role_weight": 0.1,
+      "weighted_gap": 0.015
+     },
+     {
+      "area": "maths_stats",
+      "label": "Maths and stats",
+      "your_level": 2.07,
+      "role_weight": 0.165,
+      "weighted_gap": 0.121
+     },
+     {
+      "area": "coding",
+      "label": "Coding",
+      "your_level": 1.86,
+      "role_weight": 0.307,
+      "weighted_gap": 0.241
+     },
+     {
+      "area": "ai_ml",
+      "label": "AI and ML",
+      "your_level": 1.33,
+      "role_weight": 0.352,
+      "weighted_gap": 0.323
+     },
+     {
+      "area": "dashboard_story",
+      "label": "Dashboards and storytelling",
+      "your_level": 1.72,
+      "role_weight": 0.075,
+      "weighted_gap": 0.061
+     }
+    ]
+   },
+   "group": {
+    "members": [
+     {
+      "name": "You",
+      "is_user": true,
+      "skills": {
+       "big_data": 4.41,
+       "maths_stats": 2.07,
+       "coding": 1.86,
+       "ai_ml": 1.33,
+       "dashboard_story": 1.72
+      },
+      "hours_per_week": 6,
+      "strongest_area": "big_data",
+      "learner_persona": "Foundation Builder",
+      "workstyle_persona": "Driver",
+      "trait_success_prob": 0.0,
+      "accountability_lead": false
+     },
+     {
+      "name": "Riya",
+      "is_user": false,
+      "skills": {
+       "big_data": 1.28,
+       "maths_stats": 3.86,
+       "coding": 4.16,
+       "ai_ml": 4.39,
+       "dashboard_story": 3.97
+      },
+      "hours_per_week": 8,
+      "strongest_area": "ai_ml",
+      "learner_persona": "AI Explorer",
+      "workstyle_persona": "Steady Supporter",
+      "trait_success_prob": 0.89,
+      "accountability_lead": false
+     },
+     {
+      "name": "Kabir",
+      "is_user": false,
+      "skills": {
+       "big_data": 1.36,
+       "maths_stats": 1.35,
+       "coding": 2.72,
+       "ai_ml": 2.66,
+       "dashboard_story": 2.31
+      },
+      "hours_per_week": 6,
+      "strongest_area": "coding",
+      "learner_persona": "All-Rounder",
+      "workstyle_persona": "Driver",
+      "trait_success_prob": 0.995,
+      "accountability_lead": true
+     }
+    ],
+    "score": 0.811,
+    "parts": {
+     "coverage": 0.84,
+     "overlap": 0.332,
+     "hours": 0.818,
+     "traits": 0.885
+    },
+    "group_hike_prob": 0.206,
+    "explanation": [
+     "Kabir leads AI and ML (4.23) and Dashboards (4.06), your two biggest gaps",
+     "Riya leads Coding (4.07) and Maths and stats (4.18)",
+     "Low overlap: the three of you are strong in different areas",
+     "All three can give 6 hours a week, so sessions line up",
+     "Kabir is the accountability lead this week (Driver work style)"
+    ],
+    "uncovered_areas": [
+     "big_data"
+    ]
+   },
+   "plan": {
+    "weeks": [
+     {
+      "week": 1,
+      "focus_area": "ai_ml",
+      "lead": "Kabir",
+      "hours": 6,
+      "goals": [
+       "Supervised learning basics",
+       "Train a first classifier in scikit-learn"
+      ]
+     },
+     {
+      "week": 2,
+      "focus_area": "ai_ml",
+      "lead": "Kabir",
+      "hours": 6,
+      "goals": [
+       "Model evaluation: AUC, cross-validation"
+      ]
+     },
+     {
+      "week": 3,
+      "focus_area": "coding",
+      "lead": "Riya",
+      "hours": 6,
+      "goals": [
+       "Python data wrangling with pandas",
+       "SQL joins and window functions"
+      ]
+     },
+     {
+      "week": 4,
+      "focus_area": "maths_stats",
+      "lead": "Riya",
+      "hours": 6,
+      "goals": [
+       "Hypothesis tests and regression"
+      ]
+     },
+     {
+      "week": 5,
+      "focus_area": "dashboard_story",
+      "lead": "Kabir",
+      "hours": 6,
+      "goals": [
+       "Build a dashboard, tell one story with it"
+      ]
+     },
+     {
+      "week": 6,
+      "focus_area": "big_data",
+      "lead": "Riya",
+      "hours": 6,
+      "goals": [
+       "Spark basics on a sample dataset"
+      ]
+     },
+     {
+      "week": 7,
+      "focus_area": "project",
+      "lead": "All",
+      "hours": 6,
+      "goals": [
+       "Shared project build"
+      ]
+     },
+     {
+      "week": 8,
+      "focus_area": "project",
+      "lead": "All",
+      "hours": 6,
+      "goals": [
+       "Shared project demo and write-up"
+      ]
+     }
+    ]
+   },
+   "project": {
+    "title": "Customer churn predictor with an explainer dashboard",
+    "areas": [
+     "ai_ml",
+     "maths_stats",
+     "coding",
+     "dashboard_story"
+    ],
+    "gap_closed_pct": 81.0,
+    "why": "Covers 4 of 5 areas and the group's top two gaps"
+   },
+   "community": {
+    "role_circle": {
+     "role": "Data Scientist",
+     "groups": 9,
+     "members": 26
+    },
+    "city_circle": {
+     "city": "Bengaluru",
+     "data_role_postings": 1315,
+     "groups_in_city": 3
+    },
+    "mentor_pool": 4
+   }
+  }
+ }
+}

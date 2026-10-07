@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# build outputs (regenerated on startup)
+artifacts/*
+!artifacts/.gitkeep
+
+# input datasets: add them locally to data/
+data/*
+!data/.gitkeep
